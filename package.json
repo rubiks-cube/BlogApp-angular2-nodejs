@@ -1,0 +1,31 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "Mean Angular2 app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build":"cd client && ng build --env=prod "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubiks-cube/BlogApp-angular2-nodejs.git"
+  },
+  "keywords": [
+    "BLOGAPP"
+  ],
+  "author": "Abhishek Ranjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubiks-cube/BlogApp-angular2-nodejs/issues"
+  },
+  "homepage": "https://github.com/rubiks-cube/BlogApp-angular2-nodejs#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.7"
+  }
+}
