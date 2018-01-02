@@ -1,6 +1,8 @@
 # BlogApp-angular2-nodejs
-Database: MongoDB
-Framework: Angular 2, ExpressJS, NodeJS
+Databases:MongoDB  
+
+Framework: Angular 2, ExpressJS, NodeJS  
+
 Features:
 - User Authentication (Register/Login)
 - Read all blogs
